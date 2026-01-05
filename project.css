@@ -20,7 +20,7 @@ body{
 #cursore{
    height: 30px;
    width: 30px;
-   background-color: rgba(235, 0, 0, 0.907);
+   background-color: rgba(186, 233, 16, 0.907);
    border-radius: 50%;
    position:absolute;
    z-index: 9;

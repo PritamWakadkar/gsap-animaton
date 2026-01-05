@@ -174,20 +174,20 @@ tl.from("#par1",{
    }
 })
 
-tl.from("#par1 .lef1 h2,#par1 .lef1 p,#par1 .lef1 button",{
-  x:-200,
-   opacity:0,
-   duration:0.23,
+// tl.from("#par1 .lef1h2,#par1 .lef1p,#par1.lef1button",{
+//   x:-200,
+//    opacity:0,
+//    duration:0.23,
 
-   scrollTrigger:{
-    trigger:"#par1 .lef1 h2, .lef2 p , .lef2 button",
-    scroller:"body",
-    start:"top 50%",
-    end:"top 30%",
-    scrub:2,
-    stagger:0.3
-   }
-})
+//    scrollTrigger:{
+//     trigger:"#par1 .lef1h2,#par1 .lef2p ,#par1 .lef2button",
+//     scroller:"body",
+//     start:"top 30%",
+//     end:"top 0%",
+//     scrub:2,
+//     stagger:0.3
+//    }
+// })
 tl.from("#par1 .righ1",{
   x:500,
    opacity:0,
@@ -196,7 +196,7 @@ tl.from("#par1 .righ1",{
    scrollTrigger:{
     trigger:"#par1 .righ",
     scroller:"body",
-    markers:true,
+    
     start:"top 80%",
     end:"top 30%",
     scrub:2
@@ -226,7 +226,7 @@ x:200,
   scrollTrigger:{
     trigger:"#part23 #par3",
     scroller:"body",
-    start:"top 80%",
+    start:"top 70%",
     end:"top 30%",
     scrub:2,
 
